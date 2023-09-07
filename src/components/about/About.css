@@ -1,0 +1,131 @@
+.aboutmain{
+    background-color: #F6F7F9;
+    height: 800px;
+    display: flex;
+}
+.aboutleft{
+    /* background-color: sandybrown; */
+    height: 800px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutright{
+    /* background-color: seagreen; */
+    height: 800px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aleftcon{
+    background-color: darkgoldenrod;
+    height: 600px;
+    width: 80%;
+}
+.menstyle{
+    height: 100%;
+    width: 100%;
+}
+.arightcon{
+    /* background-color: greenyellow; */
+    height: 350px;
+    width: 70%;
+   
+}
+.righthead{
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    
+    
+    
+}
+.offerstyle3{
+    font-size: 30px;
+    /* margin-left: 70px; */
+    color: #476EA9;
+    text-decoration: underline;
+    font-family: Verdana, sans-serif;
+    margin-top: 0px;
+
+}
+.offerstyle4{
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-family: Verdana, sans-serif;
+    margin-top: 0px;
+}
+.rimain{
+    height: 230px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.content{
+    font-size: 22px;
+
+}
+.aboutbtn{
+    /* background-color: saddlebrown; */
+    height: 20%;
+}
+.abtn{
+    height: 39px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    background-color: #476EA9;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 1200px){
+    .aboutleft{
+        display: none;
+    }
+    .arightcon{
+        background-color: white;
+        height: 500px;
+        width: 80%;
+        margin-left: 0px;
+        
+       
+       
+    }
+    .content{
+        font-size: 22px;
+        width: 500px;
+    }
+    .aboutright{
+        /* background-color: seagreen; */
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .righthead{
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .rimain{
+        height: 230px;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutbtn{
+        /* background-color: saddlebrown; */
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

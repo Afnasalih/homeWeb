@@ -1,0 +1,15 @@
+.topdiv{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.headerdiv{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0px;
+}
+.herodiv{
+    height: 100%;
+    padding-top: 100px;
+}

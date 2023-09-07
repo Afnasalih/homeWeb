@@ -1,0 +1,70 @@
+.conmain{
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.conhead{
+    /* background-color: bisque; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contxt{
+    background-color: rgb(240,249,255);
+    height: 250px;
+    width: 60%;
+    border-radius: 10px;
+    
+  
+   
+}
+ .conimg{ 
+    /* background-color: red; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.ustxt{
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: 20px;
+  font-family: Verdana, sans-serif;
+}
+.App{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    width: 80%;
+    height: 1100px;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid black;
+  }
+
+  .contable{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

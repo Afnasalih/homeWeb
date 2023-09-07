@@ -1,0 +1,205 @@
+.faqmain{
+    background-color:  rgb(246,247,248);
+    height: 800px;
+}
+.faqhead{
+    /* background-color: sandybrown; */
+    height: 140px;
+}
+.faqdown{
+    /* background-color: fuchsia; */
+    height: 660px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fheadcon{
+    /* background-color: gold; */
+    height: 60px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.frequenty{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+}
+.as{
+    /* background-color: salmon; */
+    height: 70px;
+}
+.as1{
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: center;
+}
+.as2{
+    margin-top: -15px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.asl1{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.asl2{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.lightblue{
+    background-color: rgb(241,244,252);
+    height: 570px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqm{
+    /* background-color: aqua; */
+    height: 430px;
+    width: 75%;
+}
+.faq1{
+    background-color: rgb(246,247,248);
+    height: 70px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.how{
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+}
+.dO{
+    height: 60px;
+    width: 500px;
+    /* background-color: firebrick; */
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.dO2{
+    /* background-color: black; */
+    height: 50px;
+    width: 70px;
+}
+.plustyle{
+    height: 80%;
+    width: 60%;
+}
+.crossbutn{
+    height: 22px;
+    width: 40px;
+    background-color: rgb(246,247,248);
+    border: none;
+}
+.dO3{
+    background-color: black;
+    height: 50px;
+    width: 70px;
+}
+.faq2{
+    background-color: rgb(246,247,248);
+    height: 70px;
+    margin-bottom: 50px;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.drop1{
+    
+        display: block;
+        width: 70%;
+        height: auto;
+        background-color: rgb(241,244,252);
+        /* padding: 20px 0px;  */
+        z-index: 10;
+        position: absolute;
+        margin-top: 10px;
+    
+}
+.dropnav1{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.btxt{
+ color: #476EA9;
+ font-size: 25px;
+ font-weight: bold;
+ font-family: Verdana, sans-serif;
+ margin-left: -70px;
+ margin-top: 0px;
+}
+.bsub{
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 0px;
+    /* background-color: blue; */
+    /* width: 745px; */
+}
+@media only screen and (max-width: 1200px) {
+    .how{
+        font-size: 20px;
+        font-family: Verdana, sans-serif;
+    }
+    .btxt{
+        color: #476EA9;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Verdana, sans-serif;
+        margin-left: 40px;
+        margin-top: 35px;
+       }
+       .bsub{
+        font-size: 10px;
+        font-family: Verdana, sans-serif;
+        margin-left: 50px;
+        margin-top: 0px;
+        /* background-color: blue; */
+        /* width: 745px; */
+    }
+    .frequenty{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Verdana, sans-serif;
+    }
+    .asl2{
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .drop1{
+    
+        display: block;
+        width: 68%;
+        height: auto;
+        background-color: rgb(241,244,252);
+        /* padding: 20px 0px;  */
+        z-index: 10;
+        position: absolute;
+        margin-top: 10px;
+    
+}
+    
+}
+@media only screen and (max-width: 630px) {
+    .asl1{
+       font-size: 13px;
+    }
+    .asl2{
+        display: none;
+    }
+}

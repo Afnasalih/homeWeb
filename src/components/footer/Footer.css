@@ -1,0 +1,257 @@
+.footermain{
+    background-color: #476EA9;
+    height: auto;
+    width: 100%;
+}
+.footerhead{
+    /* background-color: darkgreen; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1PX SOLID #F6F7F8;
+}
+.footertail{
+    /* background-color: darkgoldenrod; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foo{
+    /* background-color: blueviolet; */
+    height: 65%;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    
+}
+.foo1{
+    /* background-color: firebrick; */
+    height: 94%;
+   
+}
+.foo2{
+    /* background-color: forestgreen; */
+    height: 94%;
+    margin-top: 30px;
+
+    
+}
+.wr{
+    /* background-color: bisque; */
+    height: 50%;
+    width: 100%;
+    
+}
+.follow{
+    /* background-color: fuchsia; */
+    height: 50%;
+    margin-top: -15px;
+    
+}
+.nemo{
+    padding-top: 90px;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+    color:  #F6F7F8;
+    font-size: 15px;
+    /* background-color: aqua; */
+    width: 320px;
+}
+.folname{
+    /* background-color: darkorange; */
+    height: 100px;
+    margin-top: 0px;
+}
+.folbtn{
+    /* background-color: blue; */
+    height: 100px;
+   display: flex;
+}
+.us{
+    font-size: 25px;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    padding-top: 65px;
+    color:  #F6F7F8;
+
+}
+
+.bt{
+    height: 34px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4E7CB2;
+  
+}
+.f2head{
+    /* background-color: aqua; */
+    height: 80px;
+}
+.us1{
+    font-size: 19px;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    color:  #F6F7F8;
+
+}
+.f2{
+    /* background-color: blanchedalmond; */
+    height: 230px;
+    width: 100px;
+    margin-left: 40px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color:  #F6F7F8;
+}
+.foo3{
+    /* background-color: darkkhaki; */
+    height: 90%;
+    margin-top: 30px;
+   
+}
+.us2{
+    font-size: 19px;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 0px;
+    color:  #F6F7F8;
+
+}
+.f3{
+    /* background-color: blanchedalmond; */
+    height: 230px;
+    width: 200px;
+    /* margin-left: 40px; */
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    color:  #F6F7F8;
+}
+.head4{
+    /* background-color: red; */
+    height: 80px;
+    margin-top: 30px;
+   
+}
+.foodown{
+    /* background-color: aqua; */
+    height: 240px;
+}
+.fd1{
+    /* background-color: blue; */
+    height: 70px;
+    display: flex;
+}
+.fd1left{
+    /* background-color: darkmagenta; */
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobtn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.fd1right{
+    /* background-color: purple; */
+    height: 100%;
+    width: 220px;
+    
+}
+.top{
+    /* background-color: silver; */
+    height: 17px;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    color:  #F6F7F8;
+}
+.down{
+    /* background-color: bisque; */
+    height: 20px;
+    margin-top: -12px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color:  #F6F7F8;
+}
+.size{
+    height: 20px;
+    width: 20px;
+}
+.tail{
+    /* background-color: red; */
+    height: 20px;
+    font-size: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color:  #F6F7F8;
+}
+.cc{
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+    .foo{
+        /* background-color: antiquewhite; */
+        grid-template-columns: auto;
+       
+        
+    }
+    .foo2{
+        margin-left: 10px;
+        /* border-bottom: 1px solid  #F6F7F8; */
+    }
+    .foo3{
+        margin-left: 50px;
+    }
+    .head4{
+        /* margin-left: 260px; */
+    }
+    .foodown{
+        /* margin-left: 260px; */
+    }
+    .foo1{
+        margin-left: 50px;
+        /* border-bottom: 1px solid white; */
+    }
+
+    
+}
+
+@media only screen and (max-width: 1200px){
+    .foo{
+        /* background-color: antiquewhite; */
+        grid-template-columns: auto;
+        padding-left: 100px;
+        
+    }
+    .tail{
+        /* background-color: red; */
+        height: 9px;
+        font-size: 15px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        color:  #F6F7F8;
+    }
+}

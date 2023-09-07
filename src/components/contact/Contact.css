@@ -1,0 +1,145 @@
+.contactmain{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(246,247,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactcon{
+    /* background-color: blueviolet; */
+    height: 700px;
+    width: 90%;
+}
+.contacthead{
+    /* background-color: green; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+.contactdown{
+    /* background-color: darkblue; */
+    height: 600px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contactleft{
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%;
+    height: 100%; */
+}
+.contactright{
+    /* background-color: saddlebrown; */
+    /* width: 50%;
+    height: 100%; */
+}
+.cntactmiddle{
+    /* background-color: firebrick; */
+    height: 90%;
+    width: 80%;
+}
+.cthead{
+    /* background-color: darkmagenta; */
+    height: 60px;
+    width: 400px;
+    display: flex;
+    
+}
+.qoute{
+    margin-top: 0px;
+    font-size: 27px;
+    font-family: Verdana, sans-serif;
+}
+.name{
+    /* background-color: darkorange; */
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phonenum{
+    /* background-color: darkorchid; */
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    /* background-color: aqua; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.namebox{
+    height: 35px;
+    width: 500px;
+    border: none;
+    background-color: rgb(240,240,240);
+    padding-left: 15px;
+}
+.msgbox{
+    height: 120px;
+    width: 500px;
+    border: none;
+    background-color: rgb(240,240,240);
+    padding-left: 15px;
+}
+.csubtxt{
+    height: 40px;
+    width: 400px;
+    /* background-color: bisque; */
+}
+.by{
+    height: 40px;
+    width: 330px;
+    /* background-color: darkgrey; */
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+}
+.subtn{
+    height: 70px;
+    /* background-color: sandybrown; */
+    display: flex;
+    align-items: center;
+}
+.sstyle{
+    margin-left: 20px;
+    width: 120px;
+    height: 37px;
+    border-radius: 25px;
+    border: none;
+    background-color: #476EA9;
+    color: white;
+    font-size: 16px;
+
+}
+.namebox:hover{
+    border: 3px solid rgb(158,199,235);
+}
+.msgbox:hover{
+    border: 3px solid rgb(158,199,235);
+}
+.phonepic{
+    width: 100%;
+    height: 95%;
+    border-radius: 0px 0px 120px 0px;
+}
+@media only screen and (max-width: 1200px) {
+    .contactright{
+        display: none;
+    }
+    .contactdown{
+        /* background-color: darkblue; */
+        height: 600px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+}

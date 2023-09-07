@@ -1,0 +1,144 @@
+.submain{
+    background-color: #F6F7F8;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub1{
+    /* background-color: blue; */
+    height: 400px;
+    width: 85%;
+    display: flex;
+}
+.subimg1{
+    background-color: saddlebrown;
+    height: 100%;
+    width: 30%;
+}
+.subcon{
+    background-color: #ffff;
+    height: 100%;
+    width: 45%;
+}
+.s1{
+    height: 100%;
+    width: 100%;
+}
+.subnew{
+    height: 100px;
+    width: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stay{
+    /* background-color: salmon; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subemail{
+    /* background-color: darkgoldenrod; */
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.privacy{
+    /* background-color: darkmagenta; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subs{
+    color: #476EA9;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+    margin-top: 70px;
+}
+.subs1{
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #6B686C;
+}
+.sem{
+    /* background-color: seagreen; */
+    height: 50%;
+    width: 400px;
+}
+.esub{
+    height: 40px;
+    width: 310px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F1F4FC;
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: Verdana, sans-serif;
+}
+.scribebtn{
+    height: 40px;
+    width: 115px;
+    border-radius: 25px;
+    border: none;
+    margin-left: -40px;
+    background-color: #476EA9;
+    color: white;
+    font-weight: 500;
+    font-family: Verdana, sans-serif;
+}
+.policy{
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    color: #6B686C;
+}
+.under{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px){
+    .subimg1{
+        display: none;
+    }
+    .sub1{
+        /* background-color: blue; */
+        height: 400px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .subcon{
+        /* background-color: red; */
+        height: 100%;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .subs{
+        color: #476EA9;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 0px;
+        font-family: Verdana, sans-serif;
+        margin-top: 70px;
+    }
+    .subs1{
+        margin-top: 0px;
+        font-size: 14px;
+        font-family: Verdana, sans-serif;
+        color: #6B686C;
+    }
+}

@@ -1,0 +1,199 @@
+.headermain{
+    /* background-color: aqua; */
+    height: 100px;
+   display: flex;
+}
+.headlogo{
+    /* background-color: saddlebrown; */
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headnav{
+    /* background-color: salmon; */
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headsign{
+    /* background-color: bisque; */
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.logimg{
+    height: 80px;
+    width: 120px;
+}
+.navsog{
+    height: 90px;
+    width: 950px;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: space-between;
+}
+.navs{
+    /* background-color: red; */
+    height: 90px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navtxt{
+    font-size: 19px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+.navtxt:hover{
+    color: #476EA9 ;
+}
+
+.navtxt:after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #476EA9 ;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+}
+.navtxt:hover:after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+    color: #476EA9 ;
+   
+    
+  }
+  .signinbtn{
+    background-color: #476EA9 ;
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 26px;
+    font-size: 23px;
+    color: white;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  .head1{
+    display: flex;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headresp{
+    display: none;
+  }
+  .drop{
+    display: none;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 1200px) {
+    .head1 {
+      display: none;
+    }
+    .headresp{
+        height: 80px;
+        width: 100%;
+        display: block;
+        /* background-color: sandybrown; */
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .headleft{
+        height: 100%;
+        width: 20%;
+        /* background-color: rebeccapurple; */
+    }
+    .headright{
+        height: 100%;
+        width: 10%;
+        /* background-color: olive; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+        background-color: whitergb(255,255,255);
+    }
+    .drop{
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: rgb(211, 211, 211);
+        padding: 20px 0px; 
+        z-index: 10;
+        position: absolute;
+    }
+    .head{
+        display: block;
+    }
+    .dropnav{
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    .dropSearch{
+        height: 100px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        justify-content: center;
+
+    }
+    .searchwords{
+        width: 90%;
+        height: 100%;
+        /* background-color: brown; */
+        display: flex;
+        position: relative;
+        align-items: center;
+
+
+    
+    }
+    .head1resp{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: blue; */
+    }
+    .contentresp{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* background-color: azure; */
+    }
+    .headermain{
+        display: block;
+
+    }
+    .signinbtn{
+        margin-top: 20px;
+    }
+    
+  }

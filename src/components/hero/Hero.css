@@ -1,0 +1,183 @@
+.heromain{
+    background-color: red;
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.homestyle{
+    height: 100%;
+    width: 100%;
+}
+.blurdiv{
+    background-color: rgba(0, 0, 0, 0.368);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+.leftcontent{
+    /* background-color: rgba(0, 0, 0, 0.058); */
+    height: 100%;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentog{
+    /* background-color: rgba(0, 0, 0, 0.067); */
+    height: 62%;
+    width: 80%;
+}
+.conthead{
+    /* background-color: aqua; */
+    height: 200px;
+    width: 100%;
+    
+}
+.contsub{
+    /* background-color: chartreuse; */
+    height: 120px;
+    width: 610px;
+}
+.buybtn{
+    /* background-color: saddlebrown; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.loc{
+    /* background-color: seagreen; */
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.headstyle{
+    font-size: 65px;
+    font-family: Verdana, sans-serif;
+    margin-top: 0px;
+    font-weight: bold;
+    color: white;
+}
+.substyle{
+    font-size: 21px;
+    margin-top: 0px;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+.buy{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    color: #476EA9;
+    cursor: pointer;
+}
+.buy:hover{
+    background-color: #476EA9;
+    color: white;
+}
+.locstyle{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.selectstyle{
+    width: 170px;
+    height: 40px;
+    border-radius: 7px;
+    position: absolute;
+    font-size: 16px;
+    color: #476EA9;
+    border: none;
+    padding-left: 40px;
+    
+}
+.btnsty{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #476EA9;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    /* padding-left: 20px; */
+}
+.loca{
+ position: absolute;
+ left: 40px;
+ height: 18PX;
+}
+.loca1{
+    position: absolute;
+    left: 25px;
+}
+.loctxt{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (max-width: 1200px){
+    .loc{
+        grid-template-columns: auto;
+        height: 250px;
+        width: 720px;
+    }
+    .loca{
+        position: absolute;
+        left: 309px;
+        height: 18PX;
+       }
+       .loca1{
+        position: absolute;
+        left: 290px;
+    }
+    .locstyle{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .loc{
+        grid-template-columns: auto;
+        height: 250px;
+        width: 320px;
+    }
+     .loca{
+        position: absolute;
+        left: 110px;
+        height: 18PX;
+       }
+       .loca1{
+        position: absolute;
+        left: 90px;
+    }
+    .headstyle{
+        font-size: 40px;
+        font-family: Verdana, sans-serif;
+        margin-top: 0px;
+        font-weight: bold;
+        color: white;
+    }
+    .conthead{
+        /* background-color: aqua; */
+        height: 200px;
+        width: 50%;
+        
+    }
+    .contsub{
+        /* background-color: chartreuse; */
+        height: 120px;
+        width: 335px;
+    }
+    .substyle{
+        font-size: 18px;
+        margin-top: 0px;
+        font-family: Verdana, sans-serif;
+        color: white;
+    }
+}

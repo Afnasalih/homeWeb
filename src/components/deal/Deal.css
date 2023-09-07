@@ -1,0 +1,113 @@
+.dealmain{
+    background-color: #F6F7F9;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dealcont{
+    /* background-color: gold; */
+    height: auto;
+    width: 88%;
+    margin-top: 80px;
+}
+.dealtop{
+    /* background-color: aqua; */
+    height: 80px;
+    display: flex;
+}
+.dea{
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #476EA9;
+    text-decoration: underline;
+    font-family: Verdana, sans-serif;
+    margin-top: 8px;
+}
+.dea1{
+    font-size: 35px;
+    margin-left: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Verdana, sans-serif;
+    margin-top: 8px;
+}
+.dealdown{
+    /* background-color: blue; */
+    height: auto;
+}
+.down1{
+    /* background-color: sandybrown; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.down2{
+    /* background-color: sienna; */
+    height: auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    
+    
+}
+.picd1{
+    /* background-color: darkkhaki; */
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.picd2{
+    /* background-color: darkkhaki; */
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.picstyle{
+    height: 90%;
+    width: 95%;
+}
+.hotel{
+    /* background-color: darkblue; */
+    height: 40px;
+    width: 85%;
+    position: absolute;
+    margin-top: 230px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1200px) {
+    .down1{
+        grid-template-columns: auto;
+    }
+    .down2{
+        grid-template-columns: auto;
+    }
+    .picstyle{
+        height: 90%;
+        width: 60%;
+    }
+    .hotel{
+        /* background-color: darkblue; */
+        height: 40px;
+        width: 53%;
+        position: absolute;
+        margin-top: 230px;
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        font-family: Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+    }
+}
